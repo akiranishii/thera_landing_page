@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thera AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Inter Font from Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+
+  <style>
+    /* Basic Reset & Box-Sizing */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+      background-color: #fafafa;
+    }
+
+    /* Centered container for all content */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;    /* Centers the container on large screens */
+      padding: 1rem;
+    }
+
+    /* Top "sliver" of Santorini */
+    .top-slice {
+      position: relative;
+      height: 80px; /* Thin slice; adjust as desired */
+      background: url('santorini.jpg') center center / cover no-repeat;
+    }
+    .top-slice::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(255, 255, 255, 0.5); /* Light overlay for a low-key look */
+    }
+
+    /* Bottom "sliver" of Santorini */
+    .bottom-slice {
+      position: relative;
+      height: 80px;
+      background: url('santorini.jpg') center center / cover no-repeat;
+      margin-top: 2rem;
+    }
+    .bottom-slice::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    /* Title: same formatting as "The Challenges We Address" from your snippet */
+    h2 {
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin: 1.5rem 0 0.5rem;
+      color: #2d5f8b; /* Accent color */
+    }
+
+    /* Paragraph styling - uniform size */
+    p {
+      margin-bottom: 1rem;
+      font-size: 1rem; /* Matches the overall font sizing */
+    }
+
+    /* Footer styling (centered, small text) */
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 2rem;
+      padding: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Thin Sliver of Santorini -->
+  <div class="top-slice"></div>
+
+  <!-- Main content container -->
+  <div class="container">
+    <!-- Title "Thera" (same style as h2) -->
+    <h2>Thera</h2>
+
+    <!-- Introduction paragraph -->
+    <p>
+      We’re an applied research lab reimagining scientific innovation.
+      The pace of AI innovation is outstripping our ability to consume new research and act on it.
+      Scientific papers are not easily digestible by AI or by busy humans, and the slow cycle from
+      reading to implementation limits everyone’s potential—even as breakthroughs multiply daily.
+      Thera is bridging this gap.
+    </p>
+
+    <!-- Challenges Section -->
+    <h2>The Challenges We Address</h2>
+    <p><strong>1. Information Overload</strong><br>
+      AI evolves at a dizzying rate, and we can’t keep up with the daily deluge of
+      papers and repos. Thera AI contextualizes research so you can act,
+      rather than get lost in the noise.
+    </p>
+    <p><strong>2. Non-Deterministic Engineering</strong><br>
+      AI systems are messy. Trial-and-error is the rule, not the exception.
+      Thera AI shortens the feedback loop from days to hours, enabling rapid
+      experiments and more breakthroughs, faster.
+    </p>
+    <p><strong>3. Human-AI Co-Research</strong><br>
+      We believe in co-scientists—AI agents that partner with human researchers—to spark 
+      more flexible, creative work than black-box “fully autonomous” systems. 
+      Thera AI orchestrates multi-agent workflows so humans keep the big-picture insights, 
+      while repetitive tasks go to specialized AI “assistants.”
+    </p>
+    <p><strong>4. Reimagining How We Share Science</strong><br>
+      Traditional papers show one static snapshot. Yet research is iterative, involving 
+      evolving data, new references, and continuous collaboration. Thera AI preserves the 
+      process behind the results—so you can share not just the final findings, but how 
+      they came to be.
+    </p>
+
+    <!-- Join Section -->
+    <h2>Join Our Journey</h2>
+    <p>
+      If you agree that modern research needs a 21st-century upgrade—and that AI can help us 
+      not just “read more papers,” but transform how we experiment, build, and learn—let’s connect.
+      We’re creating Thera AI to be the place where scientific breakthroughs can move from idea 
+      to reality lightning-fast.
+    </p>
+    <p>
+      Please email your resume and a note on a project you're proud of to 
+      <strong><a href="mailto:info@thera-ai.com">info@thera-ai.com</a></strong>.
+    </p>
+  </div>
+
+  <!-- Bottom Thin Sliver of Santorini -->
+  <div class="bottom-slice"></div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; <span id="year"></span> Thera AI. All rights reserved.
+  </footer>
+
+  <script>
+    // Dynamically set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
