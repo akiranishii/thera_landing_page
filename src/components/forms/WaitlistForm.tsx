@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import { ArrowRight, Check, LoaderCircle, TriangleAlert } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { earlyAccess } from "@/config/copy";

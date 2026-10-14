@@ -18,8 +18,14 @@ export const brand = {
   statement: "Your network, in motion.",
   /** Used by the footer "Contact" link when set; otherwise the link goes to the early-access form. */
   contactEmail: process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim() || null,
-  /** Canonical site URL for metadata and Open Graph. */
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL?.trim() || "http://localhost:3000",
+  /**
+   * Canonical site URL for metadata and Open Graph: NEXT_PUBLIC_SITE_URL when set, otherwise the
+   * project's production domain on Vercel (a system variable available at build time), otherwise localhost.
+   */
+  siteUrl:
+    process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "") ||
+    "http://localhost:3000",
 } as const;
 
 export const seo = {

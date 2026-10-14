@@ -1,6 +1,7 @@
 "use client";
 
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import { Bell, CalendarClock, MapPin, NotebookPen, Sparkles } from "lucide-react";
 import { Avatar } from "@/components/ui/Avatar";
 import { contactProfile } from "@/config/demo-data";

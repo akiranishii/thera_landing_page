@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. / Atlantis rings / mark A "Harbor plan"
+       Plan view of the ringed city. Centre (32,32). Radial bands, outside in:
+       land ring 22..28 | water 17..22 | land ring 11..17 | water 6..11 | island r6.
+       One straight canal, 8 wide (walls at x=28 and x=36), cut from the sea
+       through both land rings down to the innermost water ring. Square-cut walls,
+       no round caps: the canal is engineered, not an opening. -->
+  <circle cx="32" cy="32" r="6" fill="#223848"/>
+  <path d="M 36 48.52 A 17 17 0 1 0 28 48.52 L 28 42.25 A 11 11 0 1 1 36 42.25 Z" fill="#223848"/>
+  <path d="M 36 59.71 A 28 28 0 1 0 28 59.71 L 28 53.63 A 22 22 0 1 1 36 53.63 Z" fill="#223848"/>
+</svg>

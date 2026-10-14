@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.31 80" width="185.31" height="80">
+  <!-- thera. horizontal lockup: profile-crescent mark at scale 0.6800 (disc 38.08 px, y 20.96..59.04, centred on the cap band of Inter 600 at 44 px: cap top 24, baseline 56, so the disc overshoots the cap height by 3.04 px each way like an O); crescent ink x 16.01..40.8; 15 px from the rim to the t's ink; period ink ends at x 169.3; margins 16.01. The island dot (7.07 px) echoes the period (6.88 px). -->
+  <g transform="translate(0 18.24) scale(0.6800)">
+    <path fill="#223848" fill-rule="evenodd" d="M 26.31 4.59 A 28 28 0 1 1 35.32 59.8 A 4 4 0 0 1 30.97 54.86 L 31.4 53.13 A 8.5 8.5 0 0 0 30.3 41.5 L 29.9 36.7 L 33.68 34.06 A 2 2 0 0 0 34.26 31.41 L 25.8 17 A 25.1 25.1 0 0 0 23.55 10.3 A 4 4 0 0 1 26.31 4.59 Z M 41.1 28 A 5.2 5.2 0 1 1 51.5 28 A 5.2 5.2 0 1 1 41.1 28 Z"/>
+  </g>
+  <text x="55.43" y="56" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="600" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

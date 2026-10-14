@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. / janus-disc / mark B "Two faces and the stele". The same two profiles, cut from the same disc, facing outward from a vertical column of light 8 units wide (x 28..36).
+       Each half is one closed path: crown arc (c(32,31) r25) from the column edge (28,6.32) to the brow, the profile (identical to mark-a), and the base arc (c(32,31) r27) back to the column edge (28,57.7).
+       Two paths, no strokes, no masks; on a dark ground the column becomes an ink stele between two light heads. -->
+  <path fill="#223848" d="M 28 6.32 A 25 25 0 0 0 9.1 21 L 4.62 29.55 A 2.2 2.2 0 0 0 5.55 32.52 L 10.3 35 L 8.69 36.5 A 9 9 0 0 0 7.74 40.54 A 9 9 0 0 0 9.1 45.31 A 27 27 0 0 0 28 57.7 Z"/>
+  <path fill="#223848" d="M 36 6.32 A 25 25 0 0 1 54.9 21 L 59.38 29.55 A 2.2 2.2 0 0 1 58.45 32.52 L 53.7 35 L 55.31 36.5 A 9 9 0 0 1 56.26 40.54 A 9 9 0 0 1 54.9 45.31 A 27 27 0 0 1 36 57.7 Z"/>
+</svg>

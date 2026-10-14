@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import { MapPin } from "lucide-react";
 import { ContactCard } from "./ContactCard";
 import { cities } from "@/config/demo-data";

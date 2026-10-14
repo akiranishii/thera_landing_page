@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- thera. / dome-horizon / app icon: dark tile (#1C2E3D, rx 14) with the light mark at 0.7 scale, centred -->
+  <!-- Mark footprint 36.4 x 35 (57% of the tile); the horizon gap sits on the tile's centre line. -->
+  <rect width="64" height="64" rx="14" fill="#1C2E3D"/>
+  <g transform="translate(9.6 9.6) scale(0.7)">
+    <path d="M6 28 A21 21 0 0 1 48 28 Z" fill="#F7F9FA"/>
+    <path d="M16 36 A21 21 0 0 0 58 36 Z" fill="#F7F9FA"/>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- thera. / dome-horizon / favicon: the mark re-cut for the 16 px grid -->
+  <!-- Same construction as mark.svg (one circle, 8-unit horizon gap at y 28..36) at r22 with a 12-unit slide, so that at 16 px every chord end lands on a whole pixel: -->
+  <!-- dome x 1..12, caldera x 4..15, horizon rows 7 and 9 clear; at 48 px x 3..36 / 12..45. Within half a pixel of mark.svg at both sizes. Footprint 56 x 52. -->
+  <path d="M4 28 A22 22 0 0 1 48 28 Z" fill="#223848"/>
+  <path d="M16 36 A22 22 0 0 0 60 36 Z" fill="#223848"/>
+</svg>

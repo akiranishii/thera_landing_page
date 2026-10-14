@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. mark B: "sunset disc" — the solid Θ. One disc (centre 32,32, r 25) cut by an 8-unit horizon slot at y 32..40
+       (exactly 2 px at 16 px and 6 px at 48 px, so the cut stays a clean white band on the pixel grid).
+       Upper segment = dome / sun (ink). Lower segment = its reflection in the caldera (secondary; ink in mono).
+       Two closed paths, no masking, so it knocks out correctly on any background. -->
+  <path fill="#223848" d="M 7 32 A 25 25 0 0 1 32 7 A 25 25 0 0 1 57 32 Z"/>
+  <path fill="#466680" d="M 8.31 40 A 25 25 0 0 0 55.69 40 Z"/>
+</svg>

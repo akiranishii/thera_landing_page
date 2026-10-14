@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. mark, profile-wordmark B ("Struck on the coin"): the same profile with the back arc extended to a full disc, c(32,32) r26. Two pieces that share one edge: the head in ink (the disc behind the profile; the forehead line runs out to the rim at the crown, and under the chin a short horizontal cut (the truncation of the bust) runs to the rim so the crescent ends 6.34 units wide instead of tapering to a point) and the crescent in front of her face in muted blue. No overlap, no masks. -->
+  <path fill="#8DA8BB" d="M 35.03 6.18 A 26 26 0 0 1 51.23 49.5 L 44.88 49.5 A 8 8 0 0 0 43.76 45.89 L 43.3 41.5 L 46.39 39.02 A 2 2 0 0 0 46.92 36.55 L 39 21 Z"/>
+  <path fill="#223848" d="M 35.03 6.18 L 39 21 L 46.92 36.55 A 2 2 0 0 1 46.39 39.02 L 43.3 41.5 L 43.76 45.89 A 8 8 0 0 1 44.88 49.5 L 51.23 49.5 A 26 26 0 1 1 35.03 6.18 Z"/>
+</svg>

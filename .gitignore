@@ -28,3 +28,13 @@ next-env.d.ts
 
 # local waitlist data (file store)
 /data/
+
+# design exploration: rendered PNGs and animation frames are regenerable from the SVG sources and tools
+/design/**/renders*/
+/design/**/frames*/
+/design/**/drafts/
+/design/**/_*.png
+
+# python caches
+__pycache__/
+*.pyc

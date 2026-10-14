@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187 80" width="187" height="80">
+  <!-- thera. horizontal lockup, profile-wordmark A: the goddess looks at the name. Mark at scale 0.6867 (ink 34.5 px tall, x 16.0..44.6): the flat jaw stands on the baseline (y 57.25) and the crown overshoots the cap height (y 25.25) by 2.5 px, like a round letter. 13 px from the nose tip to the t. Wordmark Inter 600, 44 px, letter-spacing -1.5; cap band y 25.25..57.25. The ink block (y 22.75..57.25) is centred in the 80-unit box: margins 16 left, 16 right, 22.75 top and bottom. -->
+  <g transform="translate(8.45 18.11) scale(0.6867)">
+    <path fill="#223848" d="M 43.03 16.39 L 44 20 L 51.92 35.55 A 2 2 0 0 1 51.39 38.02 L 48.3 40.5 L 48.76 44.89 A 8 8 0 0 1 41.9 57 L 37 57 A 26 26 0 0 1 23.95 8.51 A 13 13 0 0 1 43.03 16.39 Z"/>
+  </g>
+  <text x="57.11" y="57.25" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="44" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

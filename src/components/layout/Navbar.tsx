@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
@@ -44,7 +45,7 @@ export function Navbar() {
         Skip to content
       </a>
       <Container className="flex h-16 items-center justify-between">
-        <a href="#top" className="rounded-md" aria-label="Back to top">
+        <a href="#top" className="flex items-center rounded-md">
           <Wordmark />
         </a>
 

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 80">
+  <!-- thera. lockup A: the coin mark (mark-a) at 0.6x, disc spanning y 23.2..56.8 (cap height with slight optical overshoot), beside the wordmark. viewBox 196 wide: ink runs x 18.4..177.2 in Inter 600, so the side margins are equal. -->
+  <defs>
+    <mask id="profile-cut-lockup" maskUnits="userSpaceOnUse" x="0" y="0" width="196" height="80">
+      <rect width="196" height="80" fill="#fff"/>
+      <path d="M34.1 2 L27 24 L19 38 L23 40 L21.15 53.16 A9 9 0 0 0 29.29 63.38" transform="translate(16 20.8) scale(0.6)" fill="none" stroke="#000" stroke-width="4.2" stroke-linecap="butt" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <circle cx="35.2" cy="40" r="16.8" fill="#223848" mask="url(#profile-cut-lockup)"/>
+  <text x="64" y="56" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="44" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. mark, coin-profile A ("Goddess on the coin"): one disc c(32,32) r28 with the goddess profile knocked out as a single band of light from the top edge to the bottom edge. The band's front edge is the profile (forehead arc r40, straight nose, underside, vertical lip plane, chin arc r8, short neck); its back edge is one calm arc (r147, sagitta 2.5). Two closed paths, no strokes, no masks: the coin body behind the head and the crescent in front of the face. Band 9.2 at the crown, 17.4 at the nose tip, 10.6 at the neck. Face looks right, toward the wordmark. -->
+  <path fill="#F7F9FA" d="M 22 5.85 A 28 28 0 0 0 27.5 59.64 A 147.43 147.43 0 0 0 22 5.85 Z"/>
+  <path fill="#F7F9FA" d="M 38.07 59.33 A 28 28 0 0 0 31 4.02 A 40 40 0 0 1 34.2 17 L 43.98 31.94 A 2 2 0 0 1 43.52 34.63 L 39.5 37.7 L 40.05 42.91 A 8 8 0 0 1 39.45 52.85 L 38.07 59.33 Z"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="thera mark">
+  <!-- Caldera crescent, variant B: the rim.
+       One uniform band (centre 32,32; outer r27; width 10; round caps; opening
+       60 degrees wide at 3 o'clock) is the caldera rim,
+       an Atlantis ring and an arm around the island. The band's inner edge carries a
+       single straight nose ridge, Cycladic-style, facing the dot at the centre. -->
+  <path fill="#223848" d="M55.38 45.5 A27 27 0 1 1 55.38 18.5 A5 5 0 0 1 46.72 23.5 A17 17 0 0 0 20.3 19.67 L20 35 L15.91 37.5 A17 17 0 0 0 46.72 40.5 A5 5 0 0 1 55.38 45.5 Z"/>
+  <circle fill="#223848" cx="32" cy="32" r="5.5"/>
+</svg>

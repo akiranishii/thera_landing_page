@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. mark, accent version: same geometry as mark-duotone.svg in the lighter key.
+       Dome and bridge in the primary blue, the lower cap (one element) in the muted blue. For surfaces, illustrations
+       and secondary placements where the ink version is too heavy. -->
+  <path fill="#466680" d="M 7 32 H 40 A 4 4 0 0 1 40 40 H 55.685 A 25 25 0 1 0 7 32 Z"/>
+  <path fill="#8DA8BB" d="M 8.315 40 H 55.685 A 25 25 0 0 1 8.315 40 Z"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. mark B: "The Meeting" — the same two profiles, but they touch nose to nose. The pressed noses become the bar of a theta; the shared space splits into a cup above and a base below. One path, evenodd. Bar 5 units thick at the centre; jar base at y 54 (6 units of ring, matching the rim corners). -->
+  <path fill="#223848" fill-rule="evenodd" d="M 4 32 A 28 28 0 1 0 60 32 A 28 28 0 1 0 4 32 Z
+    M 21 13 A 13 13 0 0 1 26.5 23 L 26 24.5 L 30.5 30 L 33.5 30 L 38 24.5 L 37.5 23 A 13 13 0 0 1 43 13 Z
+    M 30.5 35 L 24.5 37.5 A 9 9 0 0 1 24 49.5 A 8 8 0 0 0 32 54 A 8 8 0 0 0 40 49.5 A 9 9 0 0 1 39.5 37.5 L 33.5 35 Z"/>
+</svg>

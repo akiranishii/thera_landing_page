@@ -17,7 +17,7 @@ export function AssistantNote({
   return (
     <div className={cn("rounded-2xl border border-line bg-surface/70 p-4", className)}>
       <div className="mb-2 flex items-center gap-1.5 text-xs font-medium text-primary">
-        <BrandSymbol className="h-3.5 w-3.5" />
+        <BrandSymbol className="h-4 w-4" variant="small" />
         {label}
         <Sparkles className="ml-auto h-3.5 w-3.5 text-subtle" aria-hidden="true" />
       </div>

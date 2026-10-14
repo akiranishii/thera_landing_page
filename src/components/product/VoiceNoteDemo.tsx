@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useInView, useReducedMotion } from "motion/react";
+import { useInView } from "motion/react";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import { Mic, Play, RotateCcw } from "lucide-react";
 import { ContactProfile } from "./ContactProfile";
 import { Waveform } from "@/components/ui/Waveform";

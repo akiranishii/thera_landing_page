@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 204.27 70" width="204.27" height="70">
+  <!-- thera. horizontal lockup. Coin 38 px (1.13 x the 33.47 px cap height of Inter 600 at 46 px), centred on the cap height so it overshoots the baseline and the ascender equally; 15 px between coin and the t; 16 px margins fitted to the ink. -->
+  <g transform="translate(13.29 13.29) scale(0.68)">
+    <path fill="#223848" fill-rule="evenodd" d="M 4 32 A 28 28 0 1 0 60 32 A 28 28 0 1 0 4 32 Z
+    M 20 13 A 27.09 27.09 0 0 1 24.8 25 L 27.88 31.6 A 1.2 1.2 0 0 1 27.49 33.08 L 25.5 34.5 L 25.8 38.5 A 7.64 7.64 0 0 1 24.5 48.5 A 8.5 8.5 0 0 0 32 53.5 A 8.5 8.5 0 0 0 39.5 48.5 A 7.64 7.64 0 0 1 38.2 38.5 L 38.5 34.5 L 36.51 33.08 A 1.2 1.2 0 0 1 36.12 31.6 L 39.2 25 A 27.09 27.09 0 0 1 44 13 Z"/>
+  </g>
+  <text x="68.55" y="51.73" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="46" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. profile-crescent B, Sunken head: one disc c(32,32) r28 split by the same profile grammar. The front half is the ink crescent (the cliffs) with the island dot r4.5 knocked out at eye level; the back half, the head, is sea blue #8DA8BB and is dropped in single colour (see mark-b-mono.svg). Profile: forehead arc r29.5 from the rim at (24,5.17), nose ridge 30 deg from vertical with an r2 tip, underside 36 deg, 5-unit lip plane, chin arc r8.5 (apex 2 behind the tip), throat at 38 deg, neck to the rim at 76 deg. Horn wedges 72 deg at the crown, 75 deg at the neck. -->
+  <path fill="#223848" fill-rule="evenodd" d="M 24 5.17 A 28 28 0 1 1 32.69 59.99 L 34.4 53.13 A 8.5 8.5 0 0 0 33.3 41.5 L 32.9 36.7 L 36.68 34.06 A 2 2 0 0 0 37.26 31.41 L 28.8 17 A 29.46 29.46 0 0 0 24 5.17 Z M 40.5 22 A 4.5 4.5 0 1 1 49.5 22 A 4.5 4.5 0 1 1 40.5 22 Z"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205 80" width="205" height="80">
+  <!-- thera. horizontal lockup. Mark at 0.72 (disc 36 units, x 19..55, y 22..58) against 44 px Inter 600 "thera."
+       whose cap band is y 24..56 (baseline 56): the disc stands on the baseline with a 2-unit round overshoot top and
+       bottom, like an O. 17 units from the disc to the t. The slot opens outward (left); the solid bridge faces the type.
+       The horizon (y 45.76) sits in the lower half of the x-height band; the blue cap below it echoes the period.
+       Margins ~19 each side; the box is trimmed to the content. -->
+  <g transform="translate(14 16.96) scale(0.72)">
+    <path fill="#223848" d="M 7 32 H 40 A 4 4 0 0 1 40 40 H 55.685 A 25 25 0 1 0 7 32 Z"/>
+    <path fill="#466680" d="M 8.315 40 H 55.685 A 25 25 0 0 1 8.315 40 Z"/>
+  </g>
+  <text x="72" y="56" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="600" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197 80" width="197" height="80">
+  <!-- thera. horizontal lockup with mark B (preferred). Mark at scale 0.68 (37.4 x 35.4), translate (12.96, 18.24):
+       it spans x 16..53.4 and y 22.3..57.7, centred on the cap band of Inter 600 at 44 px (ascender line y 24, baseline y 56; cap/ascender height 32),
+       overshooting both by 1.7 like an O. 14.5 units from the mark to the t's ink (x 68); wordmark ink ends at about x 180.3; margins 16 left, 16.7 right.
+       Text metrics were measured in Chromium with Inter SemiBold installed. -->
+  <g transform="translate(12.96 18.24) scale(0.68)">
+    <path fill="#223848" d="M 28 6.32 A 25 25 0 0 0 9.1 21 L 4.62 29.55 A 2.2 2.2 0 0 0 5.55 32.52 L 10.3 35 L 8.69 36.5 A 9 9 0 0 0 7.74 40.54 A 9 9 0 0 0 9.1 45.31 A 27 27 0 0 0 28 57.7 Z"/>
+    <path fill="#223848" d="M 36 6.32 A 25 25 0 0 1 54.9 21 L 59.38 29.55 A 2.2 2.2 0 0 1 58.45 32.52 L 53.7 35 L 55.31 36.5 A 9 9 0 0 1 56.26 40.54 A 9 9 0 0 1 54.9 45.31 A 27 27 0 0 1 36 57.7 Z"/>
+  </g>
+  <text x="67" y="56" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="44" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

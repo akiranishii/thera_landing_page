@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. / Atlantis rings / mark B "Harbor mouth"
+       Same plan, reduced to its two heaviest parts. Centre (32,32).
+       island r11 (secondary #466680; ink in mono) | water 11..16.5 | land ring 16.5..25.5.
+       One canal, 8 wide, square-cut, on the 7:30 axis (135 deg), so the closed face of the
+       ring sits against the wordmark and the opening faces out to sea. -->
+  <circle cx="32" cy="32" r="11" fill="#466680"/>
+  <path d="M 17.02 52.64 A 25.5 25.5 0 1 0 11.36 46.98 L 17.85 40.49 A 16.5 16.5 0 1 1 23.51 46.15 Z" fill="#223848"/>
+</svg>

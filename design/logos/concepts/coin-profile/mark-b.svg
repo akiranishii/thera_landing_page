@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. mark, coin-profile B ("The obverse"): the same goddess as a positive silhouette, the head side of the coin with everything in front of the face removed. One closed path: a disc c(40.5,32) r28 cut by the profile (forehead arc r40, straight nose with an r2 tip, underside, lip plane, chin arc r9 running tangent into a short neck that meets the rim at the bottom). No rim, no strokes. The disc centre sits 8.5 right of the box centre so the silhouette (ink x 12.5..52.8) is optically centred. -->
+  <path fill="#223848" d="M 39.5 4.02 A 28 28 0 1 0 46.79 59.28 L 49.96 50.58 A 9 9 0 0 0 48.87 42.34 L 48 37.7 L 52.02 34.63 A 2 2 0 0 0 52.48 31.94 L 42.7 17 A 40 40 0 0 0 39.5 4.02 Z"/>
+</svg>

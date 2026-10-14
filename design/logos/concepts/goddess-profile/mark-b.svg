@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#223848" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+  <!-- thera. goddess profile, variant B: a ring (theta / caldera / moon) crossed by one profile line.
+       Frame: circle c=(32,32) r=24.5, stroke 7 (outer edge r=28, same footprint as mark-a). Profile: forehead line, nose line,
+       underside, lip plane, chin arc r=8 that is internally tangent to the ring (chin centre 16.5 from the ring centre) and dissolves into it.
+       Stroke was 6 / ring r=25; at 16 px the profile line thinned to mid-grey, so both were taken to 7 with the chin re-solved. -->
+  <circle cx="32" cy="32" r="24.5"/>
+  <path d="M32.5 7.5 L27 24 L19 38 L23 40 L21.98 47.25 A8 8 0 0 0 28.89 56.3"/>
+</svg>

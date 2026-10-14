@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. primary mark: "theta caldera".
+       One disc, centre (32,32), radius 25. A horizontal slot 8 units tall (y 32..40, just below centre) enters from
+       the left edge and stops short of the right: round end r4 centred (40,36), so the slot reaches x=44 and the disc
+       stays joined on the right by a 12-unit bridge. The dome above the slot is an exact half disc; the segment below it
+       is the smaller reflection; the open left side is the caldera, which the sea enters from the west.
+       Grid: slot edges y=32/40 and slot end x=44 are whole pixels at 16 px (8, 10, 11) and 48 px (24, 30, 33).
+       Single path, no masking, so it knocks out on any background. -->
+  <path fill="#223848" d="M 7 32 H 40 A 4 4 0 0 1 40 40 H 8.315 A 25 25 0 1 0 7 32 Z"/>
+</svg>

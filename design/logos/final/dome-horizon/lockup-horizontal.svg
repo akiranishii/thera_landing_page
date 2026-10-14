@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 195 80">
+  <!-- thera. / dome-horizon / horizontal lockup -->
+  <!-- Mark at 0.68 (35.4 x 34): spans x 16..51.3, y 23..57, so it stands on the baseline (y 56) at the h/cap height (y 24) with 1 unit of round overshoot top and bottom, like an O. -->
+  <!-- Wordmark Inter 600 44 px, letter-spacing -1.5, baseline 56; the t's ink starts at x 65.5 (14.5 from the mark) and the period ends at x 178.5. Margins: 16 left, 16.5 right, 23 top and bottom. -->
+  <g transform="translate(11.92 18.24) scale(0.68)">
+    <path d="M6 28 A21 21 0 0 1 48 28 Z" fill="#223848"/>
+    <path d="M16 36 A21 21 0 0 0 58 36 Z" fill="#223848"/>
+  </g>
+  <text x="65" y="56" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="600" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

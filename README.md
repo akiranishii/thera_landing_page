@@ -61,10 +61,10 @@ select email, role, created_at from public.waitlist order by created_at desc;
 
 ## Deployment (Vercel)
 
-1. Push this directory to a Git repository and import it in Vercel (framework preset: Next.js; no custom build settings needed).
+1. Push this directory to a Git repository and import it in Vercel. `vercel.json` pins the framework preset to Next.js, so no custom build settings are needed.
 2. Add environment variables in the Vercel project:
    - `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` (required for signups to work)
-   - `NEXT_PUBLIC_SITE_URL` set to the production URL (used for Open Graph and structured data)
+   - `NEXT_PUBLIC_SITE_URL` set to the canonical URL if it differs from the Vercel production domain (used for Open Graph and structured data; without it the production domain is used)
    - optionally `NEXT_PUBLIC_CONTACT_EMAIL` (turns the footer "Contact" link into a `mailto:`) and `NEXT_PUBLIC_BRAND_NAME`
 3. Deploy. The page is statically prerendered; only `/api/waitlist` runs on demand.
 
@@ -78,13 +78,14 @@ src/
     layout.tsx            fonts, metadata, JSON-LD
     page.tsx              section order
     globals.css           Blue Haze design tokens, base styles, reduced-motion rules
-    icon.svg, apple-icon.tsx, opengraph-image.tsx
+    icon.svg, apple-icon.png, opengraph-image.tsx
     api/waitlist/route.ts signup endpoint
   config/
     brand.ts              brand name, tagline, site URL (the one place to rename the product)
     copy.ts               all homepage copy, in page order
     demo-data.ts          fictional people, cities, calendar, scenarios, profiles
     roles.ts              waitlist role options (shared by form and API)
+    logo.ts               the mark's paths and colours (single source for every logo rendering)
   components/
     layout/               Navbar, Footer
     sections/             Hero, Problem, Features, DemoSection, Discover, HowItWorks, Philosophy, Privacy, EarlyAccess
@@ -94,10 +95,14 @@ src/
     forms/WaitlistForm.tsx
     ui/                   Button, Container, SectionHeading, Eyebrow, Reveal, Avatar, Badge, Card, Waveform, Wordmark, DemoLabel
   lib/waitlist/           validate.ts, store.ts (Supabase / file adapters), rate-limit.ts
+  lib/useReducedMotion.ts hydration-safe reduced-motion preference
+  assets/fonts/           static Inter TTFs for the Open Graph image
 supabase/waitlist.sql     table definition
 ```
 
 ## Design notes
+
+- Logo: the "Caldera and Sunken Head" mark, a disc split by a goddess profile. The ink crescent is the cliffs of Thera, the sea-blue half is the sunken head, and the dot is the island she looks toward. Paths live in `src/config/logo.ts`; `BrandSymbol` renders the two-tone mark at 20 px and up and the simplified 16 px cut for small glyphs. The favicon (`src/app/icon.svg`) switches to a light fill in dark-mode browsers, and `src/app/apple-icon.png` is the dark tile. Source files, construction notes and the logo exploration are in `design/logos/`.
 
 - Palette ("Blue Haze"): off-white `#F7F9FA` background, white cards, `#EAF0F4` secondary surfaces, `#466680` primary buttons, `#223848` headings, `#586C79` body text, `#DDE6EC` borders, with the four pastel calendar colors for meetings, personal, networking and travel blocks. Small secondary text uses `#5D7488` so it meets a 4.5:1 contrast ratio on light surfaces.
 - The Philosophy section uses the dark slate `#1C2E3D` with warm white type.

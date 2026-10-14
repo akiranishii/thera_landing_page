@@ -1,6 +1,7 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { motion } from "motion/react";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import { Check } from "lucide-react";
 import { calendarWeek, type CalendarEvent, type EventKind } from "@/config/demo-data";
 import { cn } from "@/lib/cn";

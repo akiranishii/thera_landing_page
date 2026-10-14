@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- thera. / dome-horizon / mark B "Dome and caldera" -->
+  <!-- one r21 circle split by the horizon (gap 8) and slid 12 units: dome above, caldera below -->
+  <path d="M5 28 A21 21 0 0 1 47 28 Z" fill="#223848"/>
+  <path d="M17 36 A21 21 0 0 0 59 36 Z" fill="#223848"/>
+</svg>

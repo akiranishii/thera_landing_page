@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- thera. goddess profile, variant A ("Coin"): a solid disc (coin / moon / caldera) with the profile engraved as one line of light.
+       Disc c=(32,32) r=28. The cut is a 7-unit butt-capped stroke: forehead line, nose line, underside, lip plane, chin arc r=9.
+       The chin arc is placed so the cut's inner edge (r=5.5 about the chin centre) is internally tangent to the disc edge, so the
+       head flows into the rim with no step, and the crescent in front of the face tapers to a horn.
+       Production note: flatten (outline stroke, subtract from disc) to a single compound path before shipping. -->
+  <defs>
+    <mask id="profile-cut">
+      <rect width="64" height="64" fill="#fff"/>
+      <path d="M34.1 2 L27 24 L19 38 L23 40 L21.15 53.16 A9 9 0 0 0 29.29 63.38" fill="none" stroke="#000" stroke-width="7" stroke-linecap="butt" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <circle cx="32" cy="32" r="28" fill="#223848" mask="url(#profile-cut)"/>
+</svg>

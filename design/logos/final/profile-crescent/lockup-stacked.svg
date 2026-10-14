@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 153.5 144.5" width="153.5" height="144.5">
+  <!-- thera. stacked lockup: profile-crescent mark at scale 1.0000 (disc 56 px, ink 36.45 wide) above Inter 600 44 px; 16 px from the rim to the cap height; the mark's ink box is centred on x 71.25, i.e. 2.5 left of the wordmark's optical axis, which puts the crescent's ink centroid on the wordmark's ink centroid (the period is light, so the word's centre of mass is left of its box centre); margins 20. -->
+  <g transform="translate(29.47 16) scale(1.0000)">
+    <path fill="#223848" fill-rule="evenodd" d="M 26.31 4.59 A 28 28 0 1 1 35.32 59.8 A 4 4 0 0 1 30.97 54.86 L 31.4 53.13 A 8.5 8.5 0 0 0 30.3 41.5 L 29.9 36.7 L 33.68 34.06 A 2 2 0 0 0 34.26 31.41 L 25.8 17 A 25.1 25.1 0 0 0 23.55 10.3 A 4 4 0 0 1 26.31 4.59 Z M 41.1 28 A 5.2 5.2 0 1 1 51.5 28 A 5.2 5.2 0 1 1 41.1 28 Z"/>
+  </g>
+  <text x="19.62" y="124" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="600" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

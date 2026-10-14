@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- thera. / Cycladic head, variant A "Carved": solid marble face, nose as negative space.
+       Face: flat forehead (y=7), convex cheeks widest at y~21, round chin at y=60.
+       The silhouette is top-heavy, so it sits 1 unit below the geometric centre (centroid ~y=30)
+       to read as optically centred.
+       Nose: tapered stadium, r3 at the brow (y=18) to r5.5 at the tip (y=43); 6 units wide at the
+       brow so the cut stays open at 16 px. -->
+  <path fill="#223848" fill-rule="evenodd" d="
+    M24 7 L40 7
+    C50 7 53 13 52.5 21
+    C52 37 43.5 60 32 60
+    C20.5 60 12 37 11.5 21
+    C11 13 14 7 24 7
+    Z
+    M29 18 A3 3 0 0 1 35 18
+    L37.5 43 A5.5 5.5 0 0 1 26.5 43
+    Z"/>
+</svg>

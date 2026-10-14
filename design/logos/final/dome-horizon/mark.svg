@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- thera. / dome-horizon / primary mark "Dome and horizon" -->
+  <!-- One r21 circle cut by an 8-unit horizon (y 28..36) and slid 10 units along it: the dome above, the caldera (its reflection) below. -->
+  <!-- Point-symmetric about (32,32); footprint 52 x 50 (x 6..58, y 7..57). Chords land on whole pixels at 16 px (rows 7 and 9) and 48 px. -->
+  <path d="M6 28 A21 21 0 0 1 48 28 Z" fill="#223848"/>
+  <path d="M16 36 A21 21 0 0 0 58 36 Z" fill="#223848"/>
+</svg>

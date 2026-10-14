@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. mark, two-tone default (same geometry as mark.svg, split into two closed paths).
+       Ink piece: the dome plus the bridge, bounded below by y=40 (the horizon), with the slot cut out of its left.
+       Blue piece: the clean lower cap, chord y=40, in the primary blue. The colour seam continues the slot's lower edge,
+       so the horizon is one straight line across the disc: light where the sea enters, colour where the cliff meets it. -->
+  <path fill="#223848" d="M 7 32 H 40 A 4 4 0 0 1 40 40 H 55.685 A 25 25 0 1 0 7 32 Z"/>
+  <path fill="#466680" d="M 8.315 40 H 55.685 A 25 25 0 0 1 8.315 40 Z"/>
+</svg>

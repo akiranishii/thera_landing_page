@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- thera. / dome-horizon / app icon, light variant: #F7F9FA tile (rx 14) with the ink mark at 0.7 scale, centred -->
+  <!-- For dark home screens and dark-mode icon slots where the dark tile would sink into the background. -->
+  <rect width="64" height="64" rx="14" fill="#F7F9FA"/>
+  <g transform="translate(9.6 9.6) scale(0.7)">
+    <path d="M6 28 A21 21 0 0 1 48 28 Z" fill="#223848"/>
+    <path d="M16 36 A21 21 0 0 0 58 36 Z" fill="#223848"/>
+  </g>
+</svg>

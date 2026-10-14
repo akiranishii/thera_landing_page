@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 80" role="img" aria-label="thera. lockup">
+  <!-- Mark A at a 40 px box (scale 0.625 of the 64 grid): dots span y 24.5..54.5, i.e. cap height (cap top ~24, baseline 53), bottom dot overshooting the baseline by ~1 px like a round letter. -->
+  <g transform="translate(19 19.5) scale(0.625)">
+    <path d="M12 49V15H38.67V32H25.33V49H52V15" fill="none" stroke="#223848" stroke-width="7" stroke-linejoin="miter" stroke-linecap="butt"/>
+    <circle cx="12" cy="49" r="7" fill="#223848"/>
+    <circle cx="52" cy="15" r="7" fill="#223848"/>
+  </g>
+  <text x="70" y="53" font-family="Inter, system-ui, sans-serif" font-size="40" font-weight="600" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

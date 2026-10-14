@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <!-- thera. horizontal lockup with Cycladic head variant A. Mark scaled 0.85 so its height (45)
+       matches the ascender-to-baseline band of the 60px wordmark; baseline y=62.
+       (The mark path sits 1 unit lower in its own viewBox than before; the translate compensates
+       so the mark keeps the same position against the type.) -->
+  <g transform="translate(43 11.75) scale(0.85)">
+    <path fill="#223848" fill-rule="evenodd" d="
+      M24 7 L40 7
+      C50 7 53 13 52.5 21
+      C52 37 43.5 60 32 60
+      C20.5 60 12 37 11.5 21
+      C11 13 14 7 24 7
+      Z
+      M29 18 A3 3 0 0 1 35 18
+      L37.5 43 A5.5 5.5 0 0 1 26.5 43
+      Z"/>
+  </g>
+  <text x="105" y="62" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="60" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="thera mark: square spiral opening outward">
+  <!-- Grid: 12 / 32 / 52 on both axes. Stroke 8 (2 px at 16 px), butt caps, miter joins. Tail runs past the frame to x=60. -->
+  <path d="M32 32H52V12H12V52H60" fill="none" stroke="#223848" stroke-width="8" stroke-linejoin="miter" stroke-linecap="butt"/>
+  <circle cx="32" cy="32" r="9" fill="#223848"/>
+</svg>

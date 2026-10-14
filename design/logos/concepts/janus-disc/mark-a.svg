@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. / janus-disc / mark A "Two faces of the city". One disc whose left and right edges are two profiles looking outward, joined by a shared back of the head.
+       Crown: circle c(32,31) r25 (top y 6). Base: circle c(32,31) r27 (bottom y 58). Left profile, mirrored on x = 32:
+       brow B (9.1,21) lies on the crown circle, so forehead and nose are one Greek line (4 deg bend at the brow);
+       nose ridge B->T (3.6,31.5), 27.6 deg from vertical, 10.5 tall, tip filleted r2.2 (extreme x 4.47);
+       underside T->U (10.3,35), 27.6 deg below horizontal (mouth notch 6.7 deep); lower lip U->L (8.69,36.5);
+       chin: circle c(16.74,40.54) r9, apex (7.74,40.54), internally tangent to the base circle at (9.1,45.31).
+       Footprint x 4.47..59.53, y 6..58. One path, no strokes, no masks. -->
+  <path fill="#223848" d="M 9.1 21 L 4.62 29.55 A 2.2 2.2 0 0 0 5.55 32.52 L 10.3 35 L 8.69 36.5 A 9 9 0 0 0 7.74 40.54 A 9 9 0 0 0 9.1 45.31 A 27 27 0 0 0 54.9 45.31 A 9 9 0 0 0 56.26 40.54 A 9 9 0 0 0 55.31 36.5 L 53.7 35 L 58.45 32.52 A 2.2 2.2 0 0 0 59.38 29.55 L 54.9 21 A 25 25 0 0 0 9.1 21 Z"/>
+</svg>

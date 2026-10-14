@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. mark A: "split ring" — Θ whose ring is broken by its own horizon.
+       Ring centre (32,32), radius 22, stroke 8, round caps. Arc tips at y = 32 ± 13 (x = 32 ± 17.75),
+       which leaves a 5-unit clear gap between each cap and the bar. Bar spans the outer diameter (6..58 incl. caps).
+       Stroke 8 is exactly 2 px at 16 px: the bar fills rows 7–8 and the gaps fall on clean rows 6 and 9. -->
+  <g fill="none" stroke="#223848" stroke-width="8" stroke-linecap="round">
+    <path d="M 14.25 19 A 22 22 0 0 1 49.75 19"/>
+    <path d="M 14.25 45 A 22 22 0 0 0 49.75 45"/>
+    <line x1="10" y1="32" x2="54" y2="32"/>
+  </g>
+</svg>

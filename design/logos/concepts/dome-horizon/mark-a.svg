@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- thera. / dome-horizon / mark A "Dome and sun" -->
+  <!-- dome: half-ring, radius 17, stroke 10, centre (27,32); flat (butt) feet sit on the horizon y=32 -->
+  <!-- outer radius 22 (crown y=10), inner 12 (inner crown y=20, a whole pixel at 16 and 48 px); ring is 2.5 px at 16 px -->
+  <path d="M10 32 A17 17 0 0 1 44 32" fill="none" stroke="#223848" stroke-width="10"/>
+  <!-- sun just below the horizon, offset past the right foot; also the full stop of "thera." -->
+  <circle cx="50.5" cy="47" r="8.5" fill="#223848"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. app icon, light tile: background #F7F9FA with the two-tone ink mark at 66%. -->
+  <rect width="64" height="64" rx="14" fill="#F7F9FA"/>
+  <g transform="translate(10.88 10.88) scale(0.66)">
+    <path fill="#223848" d="M 7 32 H 40 A 4 4 0 0 1 40 40 H 55.685 A 25 25 0 1 0 7 32 Z"/>
+    <path fill="#466680" d="M 8.315 40 H 55.685 A 25 25 0 0 1 8.315 40 Z"/>
+  </g>
+</svg>

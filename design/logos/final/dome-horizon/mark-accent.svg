@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- thera. / dome-horizon / two-tone accent version -->
+  <!-- Same geometry as mark.svg. Dome in primary #466680; the caldera half in muted blue #8DA8BB so it reads as the dome's reflection in the water (the sunset read). -->
+  <!-- For light backgrounds only; use mark.svg wherever the mark must carry on its own (favicon, small sizes, mono). -->
+  <path d="M6 28 A21 21 0 0 1 48 28 Z" fill="#466680"/>
+  <path d="M16 36 A21 21 0 0 0 58 36 Z" fill="#8DA8BB"/>
+</svg>

@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import { Check, Clock, Footprints, MapPin, MessageSquareText, X } from "lucide-react";
 import { AssistantNote } from "./AssistantNote";
 import { CalendarWeek, type ProposalState } from "./CalendarWeek";

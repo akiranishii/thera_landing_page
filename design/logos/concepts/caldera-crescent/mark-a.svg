@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="thera mark">
+  <!-- Caldera crescent, variant A: the lune.
+       Two circles make the crescent: outer centre (35.53,32) r27; caldera centre (44.03,32) r21.5; tips at x=55.47.
+       The promontory on the inner edge is the profile: one straight forehead-to-nose
+       line, a short return and a lip plane that runs into the lower arc (the jaw). The dot is the island at the
+       centre of the caldera, in the face's gaze. -->
+  <path fill="#223848" d="M55.47 13.8 A21.5 21.5 0 0 0 26.19 20 L28.13 34.5 L24.83 36.3 L25.43 41 L26.54 44.5 A21.5 21.5 0 0 0 55.47 50.2 A27 27 0 1 1 55.47 13.8 Z"/>
+  <circle fill="#223848" cx="44.03" cy="32" r="5"/>
+</svg>

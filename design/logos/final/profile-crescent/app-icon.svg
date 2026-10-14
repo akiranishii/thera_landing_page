@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. app icon: profile-crescent at 72% (disc 40.32 units, 63% of the tile) on #1C2E3D; the crescent's ink box is centred on the tile. -->
+  <rect width="64" height="64" rx="14" fill="#1C2E3D"/>
+  <g transform="translate(1.92 8.96) scale(0.7200)">
+    <path fill="#F7F9FA" fill-rule="evenodd" d="M 26.31 4.59 A 28 28 0 1 1 35.32 59.8 A 4 4 0 0 1 30.97 54.86 L 31.4 53.13 A 8.5 8.5 0 0 0 30.3 41.5 L 29.9 36.7 L 33.68 34.06 A 2 2 0 0 0 34.26 31.41 L 25.8 17 A 25.1 25.1 0 0 0 23.55 10.3 A 4 4 0 0 1 26.31 4.59 Z M 41.1 28 A 5.2 5.2 0 1 1 51.5 28 A 5.2 5.2 0 1 1 41.1 28 Z"/>
+  </g>
+</svg>

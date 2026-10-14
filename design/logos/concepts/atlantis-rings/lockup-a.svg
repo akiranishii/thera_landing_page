@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 194 80" width="194" height="80">
+  <!-- thera. lockup: mark B "Harbor mouth" at 0.65 (51-unit footprint -> 33 px, ~cap height of 44 px Inter),
+       mark centre at y=41 (between cap centre 40 and x-height centre 44 for a lowercase word), 14 px gap.
+       viewBox trimmed to 194 so the right margin after the period (~16) matches the left margin before the mark (16). -->
+  <g transform="translate(11.8 20.2) scale(0.65)">
+    <circle cx="32" cy="32" r="11" fill="#466680"/>
+    <path d="M 17.02 52.64 A 25.5 25.5 0 1 0 11.36 46.98 L 17.85 40.49 A 16.5 16.5 0 1 1 23.51 46.15 Z" fill="#223848"/>
+  </g>
+  <text x="64" y="56" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="600" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 80" role="img" aria-label="thera.">
+  <svg x="16" y="20" width="40" height="40" viewBox="0 0 64 64">
+    <path fill="#223848" d="M55.38 45.5 A27 27 0 1 1 55.38 18.5 A5 5 0 0 1 46.72 23.5 A17 17 0 0 0 20.3 19.67 L20 35 L15.91 37.5 A17 17 0 0 0 46.72 40.5 A5 5 0 0 1 55.38 45.5 Z"/>
+    <circle fill="#223848" cx="32" cy="32" r="5.5"/>
+  </svg>
+  <text x="68" y="56.72" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="46" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

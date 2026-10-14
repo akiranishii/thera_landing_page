@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="thera mark: two dots joined by a meander">
+  <!-- Grid: columns 12 / 25.33 / 38.67 / 52, rows 15 / 32 / 49. Stroke 7, butt caps, miter joins. Point-symmetric about (32,32). Dots r=7 so they clear the neighbouring bar end by 2.83 units. Extents 5..59 x 8..56. -->
+  <path d="M12 49V15H38.67V32H25.33V49H52V15" fill="none" stroke="#223848" stroke-width="7" stroke-linejoin="miter" stroke-linecap="butt"/>
+  <circle cx="12" cy="49" r="7" fill="#223848"/>
+  <circle cx="52" cy="15" r="7" fill="#223848"/>
+</svg>

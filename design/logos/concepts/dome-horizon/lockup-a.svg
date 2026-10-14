@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80">
+  <!-- thera. horizontal lockup: mark B (dome and caldera) at cap height, sitting on the baseline -->
+  <!-- mark 54x50 units scaled 0.68 = 36.7x34; spans y 23-57 against cap top 24 / baseline 56 (1 unit round overshoot) -->
+  <g transform="translate(12.6 18.24) scale(0.68)">
+    <path d="M5 28 A21 21 0 0 1 47 28 Z" fill="#223848"/>
+    <path d="M17 36 A21 21 0 0 0 59 36 Z" fill="#223848"/>
+  </g>
+  <text x="66" y="56" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="600" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

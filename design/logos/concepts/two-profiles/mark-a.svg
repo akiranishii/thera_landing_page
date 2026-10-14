@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. mark A: "The Vessel" — a solid coin with an amphora-shaped void; the void's two edges are profiles facing each other. One path, evenodd. Circle c(32,32) r28. Nose gap 6 units so the neck survives at 16 px. -->
+  <path fill="#223848" fill-rule="evenodd" d="M 4 32 A 28 28 0 1 0 60 32 A 28 28 0 1 0 4 32 Z
+    M 20 13 A 13 13 0 0 1 26.5 23 L 26 24.5 L 29 31 L 24.5 33.5 A 4 4 0 0 1 25.5 38.5 L 24.8 40 A 8 8 0 0 1 24 49 A 8 8 0 0 0 32 53.5
+    A 8 8 0 0 0 40 49 A 8 8 0 0 1 39.2 40 L 38.5 38.5 A 4 4 0 0 1 39.5 33.5 L 35 31 L 38 24.5 L 37.5 23 A 13 13 0 0 1 44 13 Z"/>
+</svg>

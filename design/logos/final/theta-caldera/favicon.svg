@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- thera. favicon: the mark simplified for 16 px. Single colour, square-ended slot (the r4 round end is under a pixel
+       at 16 px and only softens the edge), slot end on the pixel boundary x=44. At 16 px the disc is 12.5 px, the slot
+       is exactly rows 8-9 from the left edge to column 10, and the bridge is 3 solid columns. Flips to light in dark UI. -->
+  <style>@media (prefers-color-scheme: dark) { path { fill: #F7F9FA; } }</style>
+  <path fill="#223848" d="M 7 32 H 44 V 40 H 8.315 A 25 25 0 1 0 7 32 Z"/>
+</svg>

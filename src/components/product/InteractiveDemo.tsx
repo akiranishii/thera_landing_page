@@ -1,7 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
+import { useReducedMotion } from "@/lib/useReducedMotion";
 import { Mic, RotateCcw, Sparkles } from "lucide-react";
 import { ContactCard } from "./ContactCard";
 import { CalendarPreview } from "./CalendarPreview";
@@ -55,7 +56,7 @@ export function InteractiveDemo() {
       {/* Top bar */}
       <div className="flex items-center justify-between gap-3 border-b border-line px-4 py-3 sm:px-5">
         <span className="flex items-center gap-2 text-sm font-medium text-heading">
-          <BrandSymbol className="h-4 w-4" />
+          <BrandSymbol className="h-4 w-4" variant="small" />
           {brand.name}
         </span>
         <span className="rounded-full bg-surface px-2.5 py-1 text-[0.6875rem] font-medium uppercase tracking-wider text-primary">
@@ -184,8 +185,11 @@ function Conversation({
   onPhase: (phase: Phase) => void;
 }) {
   const words = scenario.response.split(" ");
-  const [phase, setLocalPhase] = useState<Phase>(reduce ? "done" : "user");
-  const [typed, setTyped] = useState(reduce ? words.length : 0);
+  const [localPhase, setLocalPhase] = useState<Phase>(reduce ? "done" : "user");
+  const [localTyped, setTyped] = useState(reduce ? words.length : 0);
+  // With reduced motion the exchange is shown complete, even if this mounted before the preference was known.
+  const phase: Phase = reduce ? "done" : localPhase;
+  const typed = reduce ? words.length : localTyped;
 
   const advance = useCallback(
     (next: Phase) => {
@@ -237,7 +241,7 @@ function Conversation({
           transition={{ duration: 0.35, ease }}
         >
           <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-surface">
-            <BrandSymbol className="h-4 w-4" />
+            <BrandSymbol className="h-4 w-4" variant="small" />
           </span>
           <div className="max-w-[85%] rounded-2xl rounded-bl-md border border-line bg-bg px-4 py-2.5 text-sm text-heading">
             {phase === "thinking" ? (

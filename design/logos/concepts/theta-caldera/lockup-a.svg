@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205 80" width="205" height="80">
+  <!-- thera. lockup: mark B (sunset disc) + wordmark.
+       Disc 36 units (y 22..58) centred on the band from the ascender top (y 24) to the baseline (y 56), overshooting it by
+       2 units top and bottom so it stands on the baseline like a letter. 17 units of air between the disc and the "t";
+       ~19 units of margin each side of the content. -->
+  <g transform="translate(14 16.96) scale(0.72)">
+    <path fill="#223848" d="M 7 32 A 25 25 0 0 1 32 7 A 25 25 0 0 1 57 32 Z"/>
+    <path fill="#466680" d="M 8.31 40 A 25 25 0 0 0 55.69 40 Z"/>
+  </g>
+  <text x="72" y="56" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="600" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>

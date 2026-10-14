@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 140" width="160" height="140">
+  <!-- thera. stacked lockup. Mark at 0.6875 (disc 44 units, y 25..69) centred 1 unit left of the wordmark ink centre (ink x 23..137, period is light so the optical centre sits at ~79;
+       cap band y 83..115, baseline 115). 14 units between the disc and the ascenders. Margins 25 top, 25 bottom, 23 sides. -->
+  <g transform="translate(57 20.19) scale(0.6875)">
+    <path fill="#223848" d="M 7 32 H 40 A 4 4 0 0 1 40 40 H 55.685 A 25 25 0 1 0 7 32 Z"/>
+    <path fill="#466680" d="M 8.315 40 H 55.685 A 25 25 0 0 1 8.315 40 Z"/>
+  </g>
+  <text x="23" y="115" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="600" letter-spacing="-1.5" fill="#223848">thera.</text>
+</svg>
